@@ -1,8 +1,7 @@
-# $Revision: 1.1 $, $Date: 2004/09/18 01:56:23 $
 Summary:	Converts RTF files to HTML
 Name:		rtf-converter
 Version:	1.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL
 Group:		Publishing
 Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
