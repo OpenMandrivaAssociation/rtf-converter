@@ -9,7 +9,6 @@ Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
 URL:		http://www.kaitiaki.org.nz/download/
 Patch0:		%{name}-cflags.patch
 BuildRequires:	libstdc++-devel
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 The program is intended for command-line conversion of RTF to HTML. It
