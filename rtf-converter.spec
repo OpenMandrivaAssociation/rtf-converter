@@ -1,13 +1,14 @@
 Summary:	Converts RTF files to HTML
 Name:		rtf-converter
 Version:	1.1
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL
 Group:		Publishing
 Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
 # Source0-md5:	224c2855e68d1aea5c4f0230cbc1879b
 URL:		http://www.kaitiaki.org.nz/download/
 Patch0:		%{name}-cflags.patch
+Patch1:		rtf-converter-1.1-mdv-fix-gcc-4.3.patch
 BuildRequires:	libstdc++-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -20,6 +21,7 @@ tags and given an HTML header. It attempts to produce HTML 4.0
 %prep
 %setup -q -n rtf
 %patch0 -p1
+%patch1 -p1 -b .gcc43
 
 %build
 %make
