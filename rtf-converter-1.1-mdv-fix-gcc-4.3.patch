@@ -1,0 +1,23 @@
+diff -p -up rtf/rtftohtml.cpp.gcc43 rtf/rtftohtml.cpp
+--- rtf/rtftohtml.cpp.gcc43	2009-12-05 02:06:26.000000000 +0100
++++ rtf/rtftohtml.cpp	2009-12-05 02:07:24.000000000 +0100
+@@ -16,6 +16,7 @@
+  */ 
+ // rtftohtml.cpp
+ 
++#include <cstring>
+ #include <string>
+ #include <vector>
+ #include <stack>
+diff -p -up rtf/tokeniser.cpp.gcc43 rtf/tokeniser.cpp
+--- rtf/tokeniser.cpp.gcc43	2009-12-05 02:07:45.000000000 +0100
++++ rtf/tokeniser.cpp	2009-12-05 02:08:43.000000000 +0100
+@@ -17,6 +17,8 @@
+ // tokeniser.cpp: implementation of the Tokeniser class.
+ //
+ //////////////////////////////////////////////////////////////////////
++#include <cstring>
++#include <cstdlib>
+ #include <string>
+ 
+ using namespace std ;
