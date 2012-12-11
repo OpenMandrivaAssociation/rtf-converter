@@ -40,3 +40,43 @@ rm -rf $RPM_BUILD_ROOT
 
 %define date	%(echo `LC_ALL="C" date +"%a %b %d %Y"`)
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1-9mdv2011.0
++ Revision: 614722
+- the mass rebuild of 2010.1 packages
+
+* Sat Dec 05 2009 Jérôme Brenier <incubusss@mandriva.org> 1.1-8mdv2010.1
++ Revision: 473649
++ rebuild (emptylog)
+
+* Sat Dec 05 2009 Jérôme Brenier <incubusss@mandriva.org> 1.1-7mdv2010.1
++ Revision: 473644
+- fix build with gcc >= 4.3
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - rebuild
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Sun Aug 26 2007 Gaëtan Lehmann <glehmann@mandriva.org> 1.1-3mdv2008.0
++ Revision: 71555
+- rebuild
+
+
+* Wed Aug 09 2006 glehmann
++ 08/09/06 21:10:58 (55150)
+rebuild
+
+* Sun Jul 30 2006 glehmann
++ 07/30/06 10:29:06 (42716)
+Import rtf-converter
+
+* Tue Jun 28 2005 <gaetan.lehmann@jouy.inra.fr> 1.1-1mdk
+- initial mandirva contrib
+- package stollen from PLD
+
