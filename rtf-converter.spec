@@ -1,7 +1,7 @@
 Summary:	Converts RTF files to HTML
 Name:		rtf-converter
 Version:	1.1
-Release:	%mkrel 9
+Release:	10
 License:	GPL
 Group:		Publishing
 Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
