@@ -6,7 +6,7 @@ License:	GPL
 Group:		Publishing
 Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
 # Source0-md5:	224c2855e68d1aea5c4f0230cbc1879b
-URL:		http://www.kaitiaki.org.nz/download/
+URL:		https://www.kaitiaki.org.nz/download/
 Patch0:		%{name}-cflags.patch
 Patch1:		rtf-converter-1.1-mdv-fix-gcc-4.3.patch
 BuildRequires:	libstdc++-devel
