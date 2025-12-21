@@ -9,6 +9,7 @@ Source0:	http://www.kaitiaki.org.nz/download/%{name}_%{version}.tar.gz
 URL:		https://www.kaitiaki.org.nz/download/
 Patch0:		%{name}-cflags.patch
 Patch1:		rtf-converter-1.1-mdv-fix-gcc-4.3.patch
+BuildRequires:	make
 BuildRequires:	libstdc++-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
